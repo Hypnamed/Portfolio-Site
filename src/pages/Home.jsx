@@ -1,10 +1,5 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
-import {
-  Box,
-  Center,
-  Button,
-} from "@chakra-ui/react";
 import First from "../components/First.jsx";
 import Second from "../components/Second.jsx";
 import Third from "../components/Third.jsx";
