@@ -102,7 +102,7 @@ function Second() {
         </Box>
       </SimpleGrid>
 
-      <Box display={"flex"} flexDirection={"column"}>
+      <Box display={"flex"} flexDirection={"column"} mb={10} ml={5} mr={5}>
         <Center>
           <Heading
             as={"h1"}
@@ -140,7 +140,7 @@ function Second() {
           />
         </Center>
         <Center>
-          <SiJavascript size={"45px"} color={"yellow"} />
+          <SiJavascript size={"45px"} color={"yellow"} ml={5}/>
           <FaPlus size={"25px"} color={"white"} />
           <FaReact size={"45px"} color={"cyan"} />
           <Heading as={"h1"} fontSize={"2xl"} color="white" pr={5} ml={5}>
