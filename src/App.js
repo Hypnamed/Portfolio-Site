@@ -1,8 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home";
-import Error404 from "./pages/Error404";
 import { Box } from "@chakra-ui/react";
-import { Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
