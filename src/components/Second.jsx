@@ -8,7 +8,6 @@ import {
   SimpleGrid,
 } from "@chakra-ui/react";
 import React from "react";
-import ProgressBar from "react-animated-progress-bar";
 import { ArrowRightIcon } from "@chakra-ui/icons";
 import {
   FaHtml5,
@@ -19,6 +18,7 @@ import {
   FaSteam,
 } from "react-icons/fa";
 import { SiJavascript, SiCinema4D } from "react-icons/si";
+import ProgressBar from "react-animated-progress-bar";
 
 function Second() {
   return (
