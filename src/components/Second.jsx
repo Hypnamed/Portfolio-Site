@@ -66,6 +66,14 @@ function Second() {
                   <ListIcon as={ArrowRightIcon} />
                   <b>Red Dead Redemption 2</b>
                 </ListItem>
+                <ListItem fontSize={"lg"}>
+                  <ListIcon as={ArrowRightIcon} />
+                  <b>Football</b>
+                </ListItem>
+                <ListItem fontSize={"lg"}>
+                  <ListIcon as={ArrowRightIcon} />
+                  <b>Swimming</b>
+                </ListItem>
               </List>
             </Center>
           </Box>
@@ -95,6 +103,14 @@ function Second() {
                 <ListItem fontSize={"lg"}>
                   <ListIcon as={ArrowRightIcon} />
                   <b>Daredevil</b>
+                </ListItem>
+                <ListItem fontSize={"lg"}>
+                  <ListIcon as={ArrowRightIcon} />
+                  <b>Moon Knight</b>
+                </ListItem>
+                <ListItem fontSize={"lg"}>
+                  <ListIcon as={ArrowRightIcon} />
+                  <b>Naruto & Naruto Shippuuden</b>
                 </ListItem>
               </List>
             </Center>
