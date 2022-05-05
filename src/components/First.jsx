@@ -17,6 +17,7 @@ import {
   FaDiscord,
   FaGithub,
   FaLinkedin,
+  FaTiktok,
 } from "react-icons/fa";
 
 function First() {
@@ -94,6 +95,22 @@ function First() {
                     mt={5}
                     colorScheme={"whiteAlpha"}
                     icon={<FaYoutube size={31} />}
+                    variant={"ghost"}
+                  />
+                </Link>
+              </Tooltip>
+              <Tooltip
+                hasArrow
+                label="My TikTok Account"
+                bg="gray.300"
+                color="black"
+                borderRadius={"md"}
+              >
+                <Link href="https://tiktok.com/@hypnamed" target={"_blank"}>
+                  <IconButton
+                    mt={5}
+                    colorScheme={"whiteAlpha"}
+                    icon={<FaTiktok size={31} />}
                     variant={"ghost"}
                   />
                 </Link>
