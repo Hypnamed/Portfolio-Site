@@ -2,6 +2,7 @@ import {
   Box,
   Center,
   Heading,
+  IconButton,
   List,
   ListIcon,
   ListItem,
@@ -11,13 +12,10 @@ import React from "react";
 import { ArrowRightIcon } from "@chakra-ui/icons";
 import {
   FaHtml5,
-  FaCss3Alt,
-  FaPlus,
   FaReact,
-  FaFigma,
-  FaSteam,
+  FaStar,
 } from "react-icons/fa";
-import { SiJavascript, SiCinema4D } from "react-icons/si";
+import { SiAdobeindesign } from "react-icons/si";
 import ProgressBar from "react-animated-progress-bar";
 
 function Second() {
@@ -55,23 +53,23 @@ function Second() {
             <Center>
               <List spacing={5} color={"white"} my={5}>
                 <ListItem fontSize={"lg"}>
-                  <ListIcon as={ArrowRightIcon} />
+                  <ListIcon as={FaStar} />
                   <b>Minecraft</b>
                 </ListItem>
                 <ListItem fontSize={"lg"}>
-                  <ListIcon as={ArrowRightIcon} />
+                  <ListIcon as={FaStar} />
                   <b>Rainbow Six Siege</b>
                 </ListItem>
                 <ListItem fontSize={"lg"}>
-                  <ListIcon as={ArrowRightIcon} />
+                  <ListIcon as={FaStar} />
                   <b>Red Dead Redemption 2</b>
                 </ListItem>
                 <ListItem fontSize={"lg"}>
-                  <ListIcon as={ArrowRightIcon} />
+                  <ListIcon as={FaStar} />
                   <b>Football</b>
                 </ListItem>
                 <ListItem fontSize={"lg"}>
-                  <ListIcon as={ArrowRightIcon} />
+                  <ListIcon as={FaStar} />
                   <b>Swimming</b>
                 </ListItem>
               </List>
@@ -93,23 +91,23 @@ function Second() {
             <Center>
               <List spacing={5} color={"white"} my={5}>
                 <ListItem fontSize={"lg"}>
-                  <ListIcon as={ArrowRightIcon} />
+                  <ListIcon as={FaStar} />
                   <b>One Piece</b>
                 </ListItem>
                 <ListItem fontSize={"lg"}>
-                  <ListIcon as={ArrowRightIcon} />
+                  <ListIcon as={FaStar} />
                   <b>Star Wars Series</b>
                 </ListItem>
                 <ListItem fontSize={"lg"}>
-                  <ListIcon as={ArrowRightIcon} />
+                  <ListIcon as={FaStar} />
                   <b>Daredevil</b>
                 </ListItem>
                 <ListItem fontSize={"lg"}>
-                  <ListIcon as={ArrowRightIcon} />
+                  <ListIcon as={FaStar} />
                   <b>Moon Knight</b>
                 </ListItem>
                 <ListItem fontSize={"lg"}>
-                  <ListIcon as={ArrowRightIcon} />
+                  <ListIcon as={FaStar} />
                   <b>Naruto & Naruto Shippuuden</b>
                 </ListItem>
               </List>
@@ -136,9 +134,12 @@ function Second() {
           </Heading>
         </Center>
         <Center>
-          <FaHtml5 size={"50px"} color={"red"} />
-          <FaPlus size={"25px"} color={"white"} />
-          <FaCss3Alt size={"50px"} color={"cyan"} />
+          <IconButton
+            aria-label="HTML / CSS"
+            icon={<FaHtml5 />}
+            size={"md"}
+            colorScheme={"blackAlpha"}
+          />
           <Heading as={"h1"} fontSize={"2xl"} color="white" pr={5} ml={5}>
             HTML & CSS
           </Heading>
@@ -156,9 +157,12 @@ function Second() {
           />
         </Center>
         <Center>
-          <SiJavascript size={"45px"} color={"yellow"} ml={5}/>
-          <FaPlus size={"25px"} color={"white"} />
-          <FaReact size={"45px"} color={"cyan"} />
+          <IconButton
+            aria-label="JavaScript / React"
+            icon={<FaReact />}
+            size={"md"}
+            colorScheme={"blackAlpha"}
+          />
           <Heading as={"h1"} fontSize={"2xl"} color="white" pr={5} ml={5}>
             JavaScript & React
           </Heading>
@@ -176,7 +180,12 @@ function Second() {
           />
         </Center>
         <Center>
-          <FaFigma size={"45px"} color={"purple"} />
+          <IconButton
+            aria-label="UI / UX Design"
+            icon={<SiAdobeindesign />}
+            size={"md"}
+            colorScheme={"blackAlpha"}
+          />
           <Heading as={"h1"} fontSize={"2xl"} color="white" pr={5} ml={5}>
             UI / UX Design
           </Heading>
@@ -186,42 +195,6 @@ function Second() {
             rect
             fontColor="gray"
             percentage="35"
-            rectPadding="1px"
-            rectBorderRadius="20px"
-            trackPathColor="transparent"
-            bgColor="#333333"
-            trackBorderColor="grey"
-          />
-        </Center>
-        <Center>
-          <SiCinema4D size={"45px"} color={"white"} />
-          <Heading as={"h1"} fontSize={"2xl"} color="white" pr={5} ml={5}>
-            3D Animation
-          </Heading>
-          <ProgressBar
-            width="400px"
-            height="15px"
-            rect
-            fontColor="gray"
-            percentage="40"
-            rectPadding="1px"
-            rectBorderRadius="20px"
-            trackPathColor="transparent"
-            bgColor="#333333"
-            trackBorderColor="grey"
-          />
-        </Center>
-        <Center>
-          <FaSteam size={"45px"} color={"gray"} />
-          <Heading as={"h1"} fontSize={"2xl"} color="white" pr={5} ml={5}>
-            Gaming
-          </Heading>
-          <ProgressBar
-            width="400px"
-            height="15px"
-            rect
-            fontColor="gray"
-            percentage="90"
             rectPadding="1px"
             rectBorderRadius="20px"
             trackPathColor="transparent"
