@@ -7,7 +7,6 @@ import {
   ListIcon,
   ListItem,
   SimpleGrid,
-  Progress,
 } from "@chakra-ui/react";
 import React from "react";
 import { FaHtml5, FaReact, FaStar } from "react-icons/fa";
