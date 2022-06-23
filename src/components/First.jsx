@@ -62,7 +62,7 @@ function First() {
               textShadow="5px 5px #000000"
               textAlign={"center"}
             >
-              Junior Front-End Web Developper
+              Junior Front-End Web Developer / Content Creator
             </Heading>
           </Center>
           <Center>

@@ -7,15 +7,11 @@ import {
   ListIcon,
   ListItem,
   SimpleGrid,
+  Progress,
 } from "@chakra-ui/react";
 import React from "react";
-import {
-  FaHtml5,
-  FaReact,
-  FaStar,
-} from "react-icons/fa";
+import { FaHtml5, FaReact, FaStar } from "react-icons/fa";
 import { SiAdobeindesign } from "react-icons/si";
-import ProgressBar from "react-animated-progress-bar";
 
 function Second() {
   return (
@@ -132,7 +128,7 @@ function Second() {
             My Skills
           </Heading>
         </Center>
-        <Center>
+        <Center mt={5}>
           <IconButton
             aria-label="HTML / CSS"
             icon={<FaHtml5 />}
@@ -142,20 +138,8 @@ function Second() {
           <Heading as={"h1"} fontSize={"2xl"} color="white" pr={5} ml={5}>
             HTML & CSS
           </Heading>
-          <ProgressBar
-            width="400px"
-            height="15px"
-            rect
-            fontColor="gray"
-            percentage="85"
-            rectPadding="1px"
-            rectBorderRadius="20px"
-            trackPathColor="transparent"
-            bgColor="#333333"
-            trackBorderColor="grey"
-          />
         </Center>
-        <Center>
+        <Center mt={5}>
           <IconButton
             aria-label="JavaScript / React"
             icon={<FaReact />}
@@ -165,20 +149,8 @@ function Second() {
           <Heading as={"h1"} fontSize={"2xl"} color="white" pr={5} ml={5}>
             JavaScript & React
           </Heading>
-          <ProgressBar
-            width="400px"
-            height="15px"
-            rect
-            fontColor="gray"
-            percentage="55"
-            rectPadding="1px"
-            rectBorderRadius="20px"
-            trackPathColor="transparent"
-            bgColor="#333333"
-            trackBorderColor="grey"
-          />
         </Center>
-        <Center>
+        <Center mt={5}>
           <IconButton
             aria-label="UI / UX Design"
             icon={<SiAdobeindesign />}
@@ -188,18 +160,6 @@ function Second() {
           <Heading as={"h1"} fontSize={"2xl"} color="white" pr={5} ml={5}>
             UI / UX Design
           </Heading>
-          <ProgressBar
-            width="400px"
-            height="15px"
-            rect
-            fontColor="gray"
-            percentage="35"
-            rectPadding="1px"
-            rectBorderRadius="20px"
-            trackPathColor="transparent"
-            bgColor="#333333"
-            trackBorderColor="grey"
-          />
         </Center>
       </Box>
     </div>
