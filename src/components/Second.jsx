@@ -9,7 +9,6 @@ import {
   SimpleGrid,
 } from "@chakra-ui/react";
 import React from "react";
-import { ArrowRightIcon } from "@chakra-ui/icons";
 import {
   FaHtml5,
   FaReact,
